@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: crif-poc-aap-job
+  description: This job creates and configures am Apache VM on VSphere 
+  annotations:
+    backstage.io/kubernetes-id: crif-poc-aap-job
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/crif-poc-aap-job
+spec:
+  type: api
+  lifecycle: production
+  owner: daniele
